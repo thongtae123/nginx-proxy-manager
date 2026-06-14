@@ -22,7 +22,7 @@ NPMHOME=/tmp/npmuserhome
 export NPMUSER NPMGROUP NPMHOME
 
 # Query the certbot version just once and use it elsewhere
-CERTBOT_VERSION="$(certbot --version | grep -Eo '[0-9](\.[0-9]+)+')"
+CERTBOT_VERSION="50000$(certbot --version | grep -Eo '[0-9](\.[0-9]+)+')"
 export CERTBOT_VERSION
 
 if [[ "$PUID" -ne '0' ]] && [ "$PGID" = '0' ]; then
