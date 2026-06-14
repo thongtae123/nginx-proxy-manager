@@ -2,12 +2,7 @@
 
 ## Supported Versions
 
-Only the latest stable release receives security updates.
-Older versions are not actively maintained.
-
-| Version | Supported |
-| ------- | --------- |
-| 2.15.x (latest) | :white_check_mark: |
+Only the latest stable release receives security updates.----te_check_mark: |
 | < 2.15.0 | :x: |
 
 Docker images: `jc21/nginx-proxy-manager:latest`, `jc21/nginx-proxy-manager:2`
